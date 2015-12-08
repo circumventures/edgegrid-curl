@@ -183,7 +183,7 @@ def get_signer(config):
     return _signer
 
 
-config_path = os.environ["HOME"] + "/.egcurl"
+config_path = "/etc/egcurlrc"
 section = "default"
 method = None
 data_ascii = None
